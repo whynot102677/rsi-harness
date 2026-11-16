@@ -1,0 +1,13 @@
+# Frozen before P1. These are experience IDs, excluding all three P0 smoke IDs.
+p1_task_ids: [902, 645, 614, 933, 712, 702, 903, 648, 960, 859]
+p2_experience_batches:
+  - [902, 645, 614, 933, 712]
+  - [702, 903, 648, 960, 859]
+p1_attempt_limit: 30
+p2_attempt_limit: 60
+max_extra_validation_tokens_percent: 25
+h0:
+  rules:
+    - Implement the requested behavior and preserve the required function name.
+    - Return self-contained code that can be imported without reading input or printing.
+  skills: []
