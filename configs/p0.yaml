@@ -1,0 +1,8 @@
+base_url: https://api.deepseek.com
+model: deepseek-flash
+request_timeout: 30
+max_tokens: 1024
+api_attempt_limit: 8
+retry_limit: 1
+docker_image: python:3.11-slim
+execution_timeout: 10
